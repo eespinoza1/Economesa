@@ -1,0 +1,15 @@
+body {
+  font-family: " Monserrat", "sans-serif";
+  overflow-x: hidden;
+}
+
+#menu a {
+  font-size: 18px;
+  font-weight: bold;
+  color: 3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
