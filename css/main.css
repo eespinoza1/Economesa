@@ -13,3 +13,30 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"], select, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #0b6617;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b6617;
+}
+
+#result {
+    margin-top: 20px;
+}
