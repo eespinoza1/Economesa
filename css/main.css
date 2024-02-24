@@ -1,3 +1,17 @@
+.logo-container {
+  width: 150px; /* Ancho deseado del logo */
+  height: auto; /* Altura ajustada automáticamente para mantener la proporción de la imagen */
+}
+
+.logo-container img {
+  max-width: 75%; /* La imagen no excederá el ancho del contenedor */
+  height: auto; /* Altura ajustada automáticamente para mantener la proporción de la imagen */
+}
+@media only screen and (max-width: 768px) {
+  .logo-container {
+    width: 30%; /* Reducir el ancho del contenedor al 70% del tamaño original */
+  }
+}
 body {
   font-family: " Monserrat", "sans-serif";
   overflow-x: hidden;
