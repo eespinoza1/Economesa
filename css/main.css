@@ -54,3 +54,27 @@ button:hover {
 #result {
     margin-top: 20px;
 }
+
+.form-container {
+    float: right;
+    margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+  right: 20px; /* Ajusta la distancia desde el borde derecho */
+  background-color: green; /* Color de fondo del botón */
+  color: white; /* Color del icono */
+  width: 50px; /* Ancho del botón */
+  height: 50px; /* Altura del botón */
+  border-radius: 50%; /* Forma circular */
+  text-align: center;
+  line-height: 50px; /* Centra el icono verticalmente */
+  font-size: 24px; /* Tamaño del icono */
+  z-index: 9999; /* Asegura que esté por encima de otros elementos */
+  transition: transform 0.3s ease; /* Efecto de transición */
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
