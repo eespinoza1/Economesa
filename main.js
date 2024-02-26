@@ -22,14 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let exchangeRate;
     switch (currencyInput.value) {
-      case "usd":
-        exchangeRate = 1; // 1 dólar = X bolívares (tasa de cambio)
-        break;
+      // case "usd":
+      //   exchangeRate = 1; // 1 dólar = X bolívares (tasa de cambio)
+      //   break;
       case "cop":
-        exchangeRate = 0.00026; // 1 peso colombiano = X bolívares (tasa de cambio)
+        exchangeRate = 107,5; // 1 peso colombiano = X bolívares (tasa de cambio)
         break;
       case "clp":
-        exchangeRate = 0.0012; // 1 peso chileno = X bolívares (tasa de cambio)
+        exchangeRate = 0.013; // 1 peso chileno = X bolívares (tasa de cambio)
         break;
       default:
         exchangeRate = 0;
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (exchangeRate === 0) {
       resultDiv.innerHTML = "Seleccione una moneda válida.";
     } else {
-      const result = amount * exchangeRate;
+      const result = amount / exchangeRate;
       resultDiv.innerHTML = `<h2>El monto en bolívares venezolanos es: ${result
         .toFixed(2)
         .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</h2>`;
