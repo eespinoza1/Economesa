@@ -51,6 +51,11 @@ button:hover {
     background-color: #0b6617;
 }
 
+.carousel-inner{
+  max-height: 25rem;
+
+
+}
 #result {
     margin-top: 20px;
 }

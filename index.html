@@ -19,7 +19,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <div class="logo-container">
-        <img src="./img/ECONOMESA.png" alt="Logo de la empresa">
+        <img src="./img/logo10.png" alt="Logo de la empresa">
       </div> 
     </a>
     
@@ -33,7 +33,7 @@
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item spa">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#" onclick="scrollToFooter()">Contacto</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Servicios</a>
@@ -52,16 +52,20 @@
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
 
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="./img/img1.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <img src="./img/img1.jpg" class="d-block w-100" alt="slide1">
     </div>
 
     <div class="carousel-item" data-bs-interval="2000">
       <img src="./img/img2.jpg" class="d-block w-100" alt="...">
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="1000" >
       <img src="./img/img3.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="./img/familia.jpg" class="d-block w-100" alt="...">
     </div>
 
   </div>
@@ -93,13 +97,18 @@
         <div id="result"></div>
     </div>
     <script src="./main.js"></script>
+
+    <footer id="footer">
     <div class="card text-center">
+
   <div class="card-header">
-    <h2 class="fc-success">www.economesa.com</h2>
+    <h2 class="fc-success">www.economesa.site</h2>
   </div>
+
   <div class="card-body">
     <h5 class="card-title">Todos los derechos reservados. 2024</h5>
-    <p class="card-text">Si tienes alguna sugerencia o reclamo puedes enviar un Correo Electronico a: econo_mesa@gmail.com </i></p>
+    <p class="card-text">Si tienes alguna sugerencia o reclamo puedes enviar un Correo Electronico a: 
+       <strong>econo_mesa@gmail.com </strong>  </i></p>
     
   </div>
   <div class="card-footer text-body-secondary">
@@ -112,5 +121,6 @@
     
   </div>
 </div>
+</footer>
   </body>
 </html>

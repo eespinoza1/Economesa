@@ -72,4 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return re.test(email);
   }
 });
-
+    function scrollToFooter() {
+      var footer = document.getElementById("footer");
+      footer.scrollIntoView({ behavior: "smooth" });
+    }
