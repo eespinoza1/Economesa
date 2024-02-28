@@ -67,6 +67,19 @@ button:hover {
 .xx{
  background-color: #54995e;
 }
+
+.footer-icons {
+            font-size: 24px; /* Tamaño de los iconos */
+        }
+
+        /* Estilos para los enlaces de los iconos */
+        .footer-icons a {
+            color: #fff; /* Color de los enlaces */
+            margin: 0 10px; /* Espaciado entre los enlaces */
+            text-decoration: none; /* Elimina el subrayado */
+        }
+
+
 .whatsapp-btn {
   position: fixed;
   bottom: 20px; /* Ajusta la distancia desde el borde inferior */
