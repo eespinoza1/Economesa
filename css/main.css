@@ -64,6 +64,9 @@ button:hover {
     float: right;
     margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
 }
+.xx{
+ background-color: #54995e;
+}
 .whatsapp-btn {
   position: fixed;
   bottom: 20px; /* Ajusta la distancia desde el borde inferior */
