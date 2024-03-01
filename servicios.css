@@ -21,6 +21,10 @@
 .back-button:hover {
   background-color: #0b6617; /* Cambiar el color de fondo al pasar el cursor */
 }
+.aliados{
+  color: #0b6617;
+  margin-left: 10px;
+}
 
 /* Estilos para la clase card-container */
 .card-container {
