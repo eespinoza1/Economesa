@@ -1,0 +1,43 @@
+/* Estilos para el contenedor del botón */
+.button-container {
+  text-align: center; /* Centrar el botón horizontalmente */
+  margin-top: 20px; /* Espacio superior para separar del contenido superior */
+}
+
+/* Estilos para el botón */
+.back-button {
+  display: inline-block; /* Mostrar el botón como un bloque en línea */
+  padding: 10px 20px; /* Añadir relleno interno al botón */
+  font-size: 16px; /* Tamaño de la fuente */
+  background-color: #0b6617; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  text-decoration: none; /* Quitar la subrayado del enlace */
+  border: none; /* Quitar el borde del botón */
+  border-radius: 5px; /* Agregar bordes redondeados al botón */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+/* Estilos para el botón al pasar el cursor sobre él */
+.back-button:hover {
+  background-color: #0b6617; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+/* Estilos para la clase card-container */
+.card-container {
+  display: flex; /* Mostrar los elementos como flexbox */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
+
+/* Estilos para la clase card */
+.card {
+  flex: 1 0 300px; /* Cada tarjeta tendrá un ancho mínimo de 300px y un máximo de 1fr (toma todo el espacio disponible) */
+  margin: 10px; /* Margen entre las tarjetas */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .card {
+    flex-basis: 100%; /* Establecer el ancho de las tarjetas al 100% en dispositivos móviles */
+  margin: 10px 0; 
+  }
+}
